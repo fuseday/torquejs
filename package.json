@@ -1,6 +1,6 @@
 {
   "name": "@fuseday/torquejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A library to make frontend communication with backend, amazingly easy.",
   "main": "index.js",
   "scripts": {
