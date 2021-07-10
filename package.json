@@ -1,0 +1,12 @@
+{
+  "name": "@fuseday/torquejs",
+  "version": "0.0.1",
+  "description": "A library to make frontend communication with backend, amazingly easy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ijpatricio@gmail.com",
+  "license": "MIT"
+}
