@@ -8,7 +8,7 @@
     "flat": "^5.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pub": "npm publish --access public"
   },
   "keywords": [],
   "author": "ijpatricio@gmail.com",
