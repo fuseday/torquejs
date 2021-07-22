@@ -8,3 +8,4 @@ docs
 phpunit.xml
 vendor
 node_modules
+dist
