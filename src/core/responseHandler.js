@@ -26,6 +26,7 @@ const responseHandler = {
     jumperError(component, error) {
         this.component = component
         this.error = error
+        console.log(this.response);
         dd.showHtmlModal(this.response.data)
         if (error.response && error.response.status === 422) {
             Vue.set(this.component, 'errors', error.response.data.errors)

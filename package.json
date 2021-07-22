@@ -1,16 +1,27 @@
 {
-  "name": "@fuseday/torque",
-  "vcs": "https://github.com/fuseday/torquejs",
+  "name": "@fuseday/torquejs",
   "version": "0.0.3",
   "description": "A library to make frontend communication with backend, amazingly easy.",
-  "main": "src/plugin.js",
+  "main": "src/index.js",
   "dependencies": {
     "flat": "^5.0.2"
   },
   "scripts": {
     "pub": "npm publish --access public"
   },
-  "keywords": [],
-  "author": "ijpatricio@gmail.com",
-  "license": "MIT"
+  "repository": "https://github.com/fuseday/torquejs",
+  "bugs": {
+    "url": "https://github.com/fuseday/torquejs/issues"
+  },
+  "homepage": "https://github.com/fuseday/torquejs#readme",
+  "keywords": [
+    "laravel",
+    "inertia",
+    "vue"
+  ],
+  "author": "Joao Patricio",
+  "license": "MIT",
+  "devDependencies": {
+    "vue": "^2.6.14"
+  }
 }
