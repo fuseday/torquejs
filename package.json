@@ -2,17 +2,12 @@
   "name": "@fuseday/torquejs",
   "version": "0.0.4",
   "description": "A library to make frontend communication with backend, amazingly easy.",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "dependencies": {
-    "@types/jest": "^26.0.24",
     "flat": "^5.0.2",
-    "jest": "^27.0.6",
-    "ts-jest": "^27.0.4",
-    "typescript": "^4.3.5"
+    "jest": "^27.0.6"
   },
   "scripts": {
-    "watch": "tsc --watch",
-    "build": "tsc",
     "test": "jest",
     "pub": "npm publish --access public"
   },

@@ -1,5 +1,3 @@
-// @ts-nocheck
-
 const eventHandler = {
     handle(event) {
         if (event.type === 'BusEvent') {

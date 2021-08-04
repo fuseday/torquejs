@@ -1,4 +1,3 @@
-// @ts-nocheck
 /** https://www.npmjs.com/package/flat */
 const flat = require('flat');
 import dd from './dd'

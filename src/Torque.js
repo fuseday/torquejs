@@ -1,4 +1,3 @@
-// @ts-nocheck
 import torque from "./core";
 import Vue from "vue"
 const version = require('./../package.json').version

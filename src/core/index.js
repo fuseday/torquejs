@@ -1,4 +1,3 @@
-// @ts-nocheck
 import handler from './responseHandler'
 
 const torque = {
@@ -23,6 +22,9 @@ const torque = {
                 if (handler.mustStopHandlingError(error)) {
                     return error
                 }
+
+                console.log(error)
+                return
                 return handler.jumperError(component, error)
             })
     },
